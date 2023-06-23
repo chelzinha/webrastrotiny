@@ -1,0 +1,36 @@
+{
+  "versao": "3.1.11",
+  "quantidade": 1,
+  "objetos": [
+    {
+      "codObjeto": "JN824162945BR",
+      "tipoPostal": {
+        "sigla": "JN",
+        "descricao": "MALA DIRETA BASICA/IMPRESSO NAO URGENTE",
+        "categoria": "MALA D BÁSICA/IMPRESS NÃO URG"
+      },
+      "contrato": "9912420869",
+      "peso": 0.492,
+      "formato": "Envelope",
+      "modalidade": "F",
+      "valorDeclarado": 87,
+      "eventos": [
+        {
+          "codigo": "PO",
+          "tipo": "9",
+          "dtHrCriado": "2023-06-21T16:25:00",
+          "descricao": "Objeto postado após o horário limite da unidade",
+          "detalhe": "Sujeito a encaminhamento no próximo dia útil",
+          "unidade": {
+            "tipo": "Agência dos Correios",
+            "endereco": {
+              "cidade": "FORTALEZA",
+              "uf": "CE"
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "tipoResultado": "Todos os Eventos"
+}
