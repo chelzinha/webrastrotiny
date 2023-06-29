@@ -1,4 +1,8 @@
-curl -X 'GET' \
-  'https://api.correios.com.br/srorastro/v1/objetos?codigosObjetos=JN824162945BR&resultado=T' \
+curl -X 'POST' \
+  'https://api.correios.com.br/token/v1/autentica/cartaopostagem' \
   -H 'accept: application/json' \
-  -H 'Authorization: Bearer eyJhbGciOiJSUzUxMiJ9.eyJhbWJpZW50ZSI6IlBST0RVQ0FPIiwiaWQiOiJldXF1ZXJvY29sb3JlIiwicGZsIjoiUEoiLCJjbnBqIjoiMjUwMzUzODYwMDAxMDYiLCJjYXJ0YW8tcG9zdGFnZW0iOnsibnVtZXJvIjoiMDA3MzQ2MjU4NiIsImNvbnRyYXRvIjoiOTkxMjQyMDg2OSIsImRyIjoxMiwiYXBpIjpbMjcsMzQsMzUsMzYsNDEsNzYsNzgsODMsODcsOTMsNTY2XX0sImlwIjoiMTc3LjIwNy42Mi4xNjEsMTc3LjIwNy42Mi4xNjEiLCJpYXQiOjE2ODc1MzM2MjIsImlzcyI6InRva2VuLXNlcnZpY2UiLCJleHAiOjE2ODc2MjAwMjIsImp0aSI6IjUwMDRjNTBhLTMwZDUtNGI0OS05Y2E5LWZmZjc5MmFkNGE4YyJ9.NB30VBO5mTipWgchtVvdhlhbDpns5jEbdH-bZtpAzcaP_GpXNDyGMOExKL8XhPpwjOj-RFLoRA_9C6ruhBaAQg9sxY59xGpitclPp5TA982TSiQQPK8DCy1DFuXovJ-8RGZHH1UqClLF6wDIrZqi3TIP4krxHTNVIIP46tRZuxGZQsq6yB2fnFI20MyC2-N9lBu_aMqleggAvaYKXZgrvYrto1RY04BthJDBYocMvkLkYfy1QKF0rV9GYtX_xGoWxkUyU5p3N64c_GFg_c438o06k5uo37czLgUet0CCuYQWPm8xm35WH1XsdohzZBGGEtjmRFAUU1EtWSAmkWHolQ'
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Basic ZXVxdWVyb2NvbG9yZTpXYUAxMDIyMA==' \
+  -d '{
+  "numero": "string"
+}'
